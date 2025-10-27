@@ -83,7 +83,7 @@ export default function Page() {
           <p>Since Sora Android app may not be available on Google Play Store yet, you can get it through the following ways:</p>
           <div style={{ textAlign: 'center', margin: '40px 0' }}>
             <div className="download-buttons">
-              <a href="#" className="download-btn android-btn" onClick={(e) => { e.preventDefault(); alert('Android version coming soon, please follow for latest updates'); }}>
+              <a href="#" className="download-btn android-btn">
                 <span className="btn-icon">🤖</span>
                 Coming Soon
               </a>
